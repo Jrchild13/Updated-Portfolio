@@ -123,6 +123,16 @@ ul {
     height: 6px;
     width: 6px;                
 }
+.home-page-points ul li:before { /* the custom styled bullets */
+    background-color: black;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 6px;
+    width: 6px;                
+}
 #phone-number p {
     padding-left: 200px;
     padding-top: 60px;
@@ -132,7 +142,4 @@ ul {
 }
 #git-hub-page p {
     padding-left: 200px;
-}
-#home-page-body {
-    background-color: rgb(110, 44, 156);
 }
