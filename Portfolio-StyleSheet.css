@@ -16,22 +16,23 @@ h2 {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 p {
-    color: rgb(117, 117, 117);
-    font-size: small;
+    color: white;
+    text-indent: 40px;
+    font-size: larger;
     margin: 5;
     padding-left: -7;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 ul li { 
     list-style: none;
-    color: grey;
-    font-size: small;
+    color: lightgrey;
+    font-size: medium;
     margin: 5;
     padding-left: -7;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 ul li:before { /* the custom styled bullets */
-    background-color: rgb(110, 44, 156);
+    background-color: black;
     border-radius: 50%;
     content: "";
     display: inline-block;
