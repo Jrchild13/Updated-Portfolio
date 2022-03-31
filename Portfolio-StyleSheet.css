@@ -4,16 +4,24 @@ table, th, td {
 td  {
    margin-right: 100px; 
 }
+.body-style {
+    background: rgb(73, 3, 138);
+}
 h1 {
-    font-weight: bold;
+    font-weight: bolder;
+    color: white;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 h2 {
     padding-top: 27px;
     align-content: center;
-    font-weight: bold;
+    font-weight: bolder;
+    color: white;
     font-size:larger;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+h3 {
+    color: white;
 }
 p {
     color: white;
@@ -49,27 +57,27 @@ ul {
     padding: 0;               
 }
 .education-place {
-    color: rgb(75, 75, 75);
+    color:lightgrey;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .education-type {
-    color: rgb(110, 44, 156);
+    color: white;
     font-weight: bold;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .experience-type {
-    color: rgb(110, 44, 156);
+    color: white;
     font-weight: bold;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .experience-company {
-    color: rgb(75, 75, 75);
+    color: lightgrey;
     font-weight: bold;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .exp-points ul li {
-    color: black;
+    color: rgb(182, 182, 182);
     font-weight: lighter;
     margin: 5;
     padding-left: 17;
@@ -86,26 +94,26 @@ ul {
     width: 6px;                
 }
 .school-dates {
-    color: rgb(85, 85, 85);
+    color: lightslategrey;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .exp-dates {
-    color: rgb(85, 85, 85);
+    color: lightslategrey;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .activities-statement {
-    color: rgb(117, 117, 117);
+    color: white;
     font-size:medium;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .activities-list ul li {
-    color:rgb(117, 117, 117);
+    color:lightgrey;
     font-weight: lighter;
     margin: 2.5;
     padding-left: 25;
 }
 .activities-list ul li:before {
-    background-color: rgb(94, 94, 94);
+    background-color: black;
     border-radius: 50%;
     content: "";
     display: inline-block;
@@ -116,7 +124,7 @@ ul {
     margin: 5px;               
 }
 .tech-points ul li:before {
-    background-color: rgb(97, 97, 97);
+    background-color: black;
     border-radius: 50%;
     content: "";
     display: inline-block;
@@ -124,6 +132,16 @@ ul {
     margin-bottom: 2px;
     height: 6px;
     width: 6px;                
+}
+.tech-points ul li {
+    color:lightgrey;
+    font-weight: lighter;
+    margin: 2.5;
+    padding-left: 25;
+}
+.tech-sentence p {
+    color: lightgrey;
+    text-indent: 25px;
 }
 .home-page-points ul li:before { /* the custom styled bullets */
     background-color: black;
@@ -136,12 +154,17 @@ ul {
     width: 6px;                
 }
 #phone-number p {
-    padding-left: 200px;
+    padding-left: 240px;
     padding-top: 60px;
 }
 #email-address p {
     padding-left: 125px;
 }
 #git-hub-page p {
-    padding-left: 200px;
+    padding-left: 255px;
+    font-weight: bolder;
+}
+.other-pages p {
+    padding-left: 255px;
+    font-weight: bolder;
 }
