@@ -27,6 +27,7 @@ ul li {
     list-style: none;
     color: lightgrey;
     font-size: medium;
+    font-weight: bolder;
     margin: 5;
     padding-left: -7;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
