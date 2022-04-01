@@ -20,13 +20,15 @@
             <a href="resume.html">Resume</a>
             <a href="contact.html">Contact</a>
         </div>
-        <span style="color: white; font-size:30px; font-weight:bolder; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <span style="color: white; font-size:30px; font-weight:bolder; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
         <script>
             function openNav() {
               document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main-container").style.paddingLeft = "250px";
             }            
             function closeNav() {
               document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main-container").style.paddingLeft = "0";
             }
         </script>
         <header id="masthead">            

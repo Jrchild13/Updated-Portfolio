@@ -1,30 +1,41 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link href="Portfolio-StyleSheet.css" rel="stylesheet">
-        <style>
-            @media screen and (max-height: 450px) {
-              .sidenav {padding-top: 15px;}
-              .sidenav a {font-size: 18px;}
+
+<head>
+    <meta charset="utf-8">
+    <link href="Portfolio-StyleSheet.css" rel="stylesheet">
+    <style>
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
             }
-        </style>
-    </head>
-    <body background="https://th.bing.com/th/id/OIP.uPA2woSWc23omjmQU6ZH2gHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.35&pid=1.7">>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="resume.html">Resume</a>
-        </div>
-        <span style="color: white; font-size:30px; font-weight:bolder; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-        <script>
-            function openNav() {
-              document.getElementById("mySidenav").style.width = "250px";
-            }            
-            function closeNav() {
-              document.getElementById("mySidenav").style.width = "0";
+
+            .sidenav a {
+                font-size: 18px;
             }
-        </script>
+        }
+    </style>
+</head>
+
+<body background="https://th.bing.com/th/id/OIP.uPA2woSWc23omjmQU6ZH2gHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.35&pid=1.7">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+    </div>
+    <span style="color: white; font-size:30px; font-weight:bolder; font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; cursor:pointer" onclick="openNav()">&#9776;
+        Menu</span>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main-container").style.paddingLeft = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main-container").style.paddingLeft = "0";
+        }
+    </script>
+    <div id="main-container" class="container">
         <table>
             <tr>
                 <td>&nbsp;</td>
@@ -33,50 +44,60 @@
                     <h1 style="font-size: xx-large; font-weight: bolder;">Childress</h1>
                 </td>
                 <td>
-                    <img src="assets/image/profile_img.png" width="350" height="350"><br>
+                    <span id="phone-number">
+                        <p>(704)574-0937</p>
+                    </span>
+                    <span id="email-address">
+                        <p>Childress.joshua@yahoo.com</p>
+                    </span>
+                    <span id="git-hub-page">
+                        <p><a href="https://github.com/Jrchild13?tab=repositories" style="color:dodgerblue;">GitHub</a>
+                        </p>
+                    </span>
                 </td>
                 <td>
-                    <span id="phone-number"><p>(704)574-0937</p></span>
-                    <span id="email-address"><p>Childress.joshua@yahoo.com</p></span>
-                    <span id="git-hub-page"><p><a href="https://github.com/Jrchild13?tab=repositories"style="color:dodgerblue;">GitHub page</a></p></span>
+                    <img src="tele_img.png"
+                        style="padding-top: 63px;" width="17" height="17"><br>
+                    <img src="email_img.png"
+                        style="padding-top: 15px;" width="17" height="17"><br>
+                    <img src="new_github_img.png"
+                        style="padding-top: 15px; padding-bottom: 0px;" width="17" height="17">
                 </td>
-                <td>
-                    <img src="https://th.bing.com/th/id/OIP.RhtzH6BLdpkhw6WZ2SynagAAAA?pid=ImgDet&rs=1" style="padding-top: 63px;" width="17" height="17"><br>
-                    <img src="https://th.bing.com/th/id/OIP.SZMwPJvo4B7STGu5rtyqJQHaHa?pid=ImgDet&rs=1"  style="padding-top: 15px;"width="17" height="17"><br>
-                    <img src="https://pngimg.com/uploads/github/github_PNG40.png" style="padding-top: 15px; padding-bottom: 0px;"width="17" height="17">
-                </td>                
-            </tr>            
-            <tr> 
+            </tr>
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://www.pngfind.com/pngs/m/375-3756478_elemeno-viber-png-transparent-png.png" height="40" width="40">
+                    <img src="obj_and_certi_img.png"
+                        height="40" width="40">
                 </td>
                 <td colspan="2">
                     <h2>OBJECTIVE</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
+            </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td colspan="2">
                     <p>
-                        To become an Intern or Associate Software Engineer at a reputable company that has an amazing<br>
+                        To become an Intern or Associate Software Engineer at a reputable company that has an
+                        amazing<br>
                         culture where I can continue to advance my career in software development.
                     </p>
                 </td>
             </tr>
-            </tr>
-            <tr> 
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://www.pngfind.com/pngs/m/375-3756478_elemeno-viber-png-transparent-png.png" height="40" width="40">
+                    <img src="obj_and_certi_img.png"
+                        height="40" width="40">
                 </td>
                 <td colspan="2">
                     <h2>CERTIFICATIONS</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
             <tr>
                 <td>&nbsp;</td>
@@ -86,50 +107,50 @@
                     </p>
                 </td>
             </tr>
-            </tr>
-            <tr> 
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://image.pngaaa.com/24/5182024-middle.png" width="50" height="40">
+                    <img src="skills_img.png" width="50" height="40">
                 </td>
                 <td colspan="2">
                     <h2>SKILLS</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
+            </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td colspan="1.5">
-                    <p>                       
-                        <ul>
-                            <li>communicator</li>
-                            <li>Excellent interpersonal and client service</li>
-                            <li>Highly motivated </li>
-                        </ul>
+                    <p>
+                    <ul>
+                        <li>communicator</li>
+                        <li>Excellent interpersonal and client service</li>
+                        <li>Highly motivated </li>
+                    </ul>
                     </p>
                 </td>
                 <td colspan="1.5">
                     <p>
-                        <ul>
-                            <li>Team player </li>
-                            <li>Goal-oriented achiever</li>
-                        </ul>
+                    <ul>
+                        <li>Team player </li>
+                        <li>Goal-oriented achiever</li>
+                    </ul>
                     </p>
                 </td>
             </tr>
-            </tr>
-            <tr> 
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://www.uww.edu/images/icons/Purple/Blank_Laptop-Purple.png" width="55" height="40">
+                    <img src="tech_img.png" width="55" height="40">
                 </td>
                 <td colspan="2">
                     <h2>TECHNOLOGIES</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
+            </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td colspan="2">
@@ -143,12 +164,14 @@
                     </span>
                     <span class="tech-sentence">
                         <p>
-                            Since January 1st, 2022, I have dedicated myself fulltime to learning how to write software. I am<br>
-                            currently spending 40+ hours a week guided by a mentor who has over 30 years of programming<br>
+                            Since January 1st, 2022, I have dedicated myself fulltime to learning how to write software.
+                            I am<br>
+                            currently spending 40+ hours a week guided by a mentor who has over 30 years of
+                            programming<br>
                             experience. I have completed study of the following books"<br>
                         </p>
                     </span>
-                    <span class="tech-points">    
+                    <span class="tech-points">
                         <ul>
                             <li>Head First C# 4th edition</li>
                             <li>Head First Git</li>
@@ -156,120 +179,142 @@
                     </span>
                     <span class="tech-sentence">
                         <p>
-                            I am currently almost done with a complete MySQL tutorial and then will refamiliarize myself with<br>
+                            I am currently almost done with a complete MySQL tutorial and then will refamiliarize myself
+                            with<br>
                             technologies I learned while in the Bootcamp in 2019 including: HTML, CSS, and JavaScript.
                         </p>
                     </span>
                 </td>
             </tr>
-            </tr>
-            <tr> 
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQG5wzSkTAB-kg/company-logo_200_200/0/1593514042062?e=2159024400&v=beta&t=kKCx6rZaDs1QFLRc4L6WLCCE0KOEgia27vCRtBVVqQw" height="40" width="40">
+                    <img src="new_academic_img.png"
+                        height="40" width="40">
                 </td>
                 <td colspan="2">
                     <h2>EDUCATION</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
+            </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td colspan="2">                    
-                    <span class="education-type">College |</span> <span class="education-place">Central Piedmont Community College - Comp Sci</span><br>
+                <td colspan="2">
+                    <span class="education-type">College |</span> <span class="education-place">Central Piedmont
+                        Community College - Comp Sci</span><br>
                     <span class="school-dates">
                         August 2021 - December 2021<br>
                         August 2019 - December 2020
                     </span><br>
-                    <span class="education-type">Bootcamp Course |</span> <span class="education-place">UNC Charlotte</span><br>
-                    <span class="school-dates">                        
-                        June 2019 - August 2019                        
+                    <span class="education-type">Bootcamp Course |</span> <span class="education-place">UNC
+                        Charlotte</span><br>
+                    <span class="school-dates">
+                        June 2019 - August 2019
                     </span><br>
-                    <span class="education-type">College |</span> <span class="education-place">Western Carolina University - Comp Sci</span><br>
+                    <span class="education-type">College |</span> <span class="education-place">Western Carolina
+                        University - Comp Sci</span><br>
                     <span class="school-dates">
                         August 2018 - January 2019
                     </span><br>
-                    <span class="education-type">High School Diploma |</span> <span class="education-place">Parkwood High School</span><br>
+                    <span class="education-type">High School Diploma |</span> <span class="education-place">Parkwood
+                        High School</span><br>
                     <span class="school-dates">
                         August 2014 - June 2018
                     </span>
                 </td>
             </tr>
-            </tr>
-            <tr> 
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://lh5.googleusercontent.com/proxy/H0Dsjx-HG7mWkAkb6n1zMI4qs6_fG87UzY5h-f4Jq8RUYzpwazynDfb-BaKcW9nr1cRS9nDZGENEHEFnk7KAOnWV7UtNRIffwr423hLC7dE=w1200-h630-p-k-no-nu" height="40" width="40">
+                    <img src="exp_img.png"
+                        height="40" width="40">
                 </td>
                 <td colspan="2">
                     <h2>EXPERIENCE</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
+            </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td colspan="2">                    
-                    <span class="experience-type">Roofer |</span> <span class="experience-company">Tecta America Carolinas LLC</span><br>
+                <td colspan="2">
+                    <span class="experience-type">Roofer |</span> <span class="experience-company">Tecta America
+                        Carolinas LLC</span><br>
                     <span class="exp-dates">
                         October 2020 - August 2021
                     </span>
-                    <span class="exp-points"><ul>
-                        <li>Serviced equipment and machinery</li>
-                        <li>Repaired leaks for customers and reported the repairs to my supervisor</li>
-                        <li>Replaced rotten or broken roofs </li>
-                    </ul></span>
+                    <span class="exp-points">
+                        <ul>
+                            <li>Serviced equipment and machinery</li>
+                            <li>Repaired leaks for customers and reported the repairs to my supervisor</li>
+                            <li>Replaced rotten or broken roofs </li>
+                        </ul>
+                    </span>
 
-                    <span class="experience-type">Plumbing Technician |</span> <span class="experience-company">Gary Rash Plumbing</span><br>
+                    <span class="experience-type">Plumbing Technician |</span> <span class="experience-company">Gary
+                        Rash Plumbing</span><br>
                     <span class="exp-dates">
                         January 2019 - April 2019
                     </span>
-                    <span class="exp-points"><ul>
-                        <li>Installation of water lines/pipes for new construction buildings</li>
-                        <li>Perform inspections on completed work to ensure no leaks</li>
-                        <li>Perform requested service call/maintenance for homeowners</li>
-                        <li>Ensure customer satisfaction by providing high quality customer service</li>
-                    </ul></span>
+                    <span class="exp-points">
+                        <ul>
+                            <li>Installation of water lines/pipes for new construction buildings</li>
+                            <li>Perform inspections on completed work to ensure no leaks</li>
+                            <li>Perform requested service call/maintenance for homeowners</li>
+                            <li>Ensure customer satisfaction by providing high quality customer service</li>
+                        </ul>
+                    </span>
 
-                    <span class="experience-type">Pool Cleaning Technician |</span> <span class="experience-company">Sky Blue Pools</span><br>
+                    <span class="experience-type">Pool Cleaning Technician |</span> <span class="experience-company">Sky
+                        Blue Pools</span><br>
                     <span class="exp-dates">
                         April 2018 - August 2018
                     </span>
-                    <span class="exp-points"><ul>
-                        <li>Debris removal and apply precise chemicals</li>
-                        <li>Inspection and adjustment of water levels for proper functioning of pumps and skimmers</li>
-                        <li>Ensure customer satisfaction by providing high quality customer service</li>
-                        <li>Ensure all installed equipment is functioning properly</li>
-                        <li>Keep supervisor informed of job progress</li> 
-                    </ul></span>
+                    <span class="exp-points">
+                        <ul>
+                            <li>Debris removal and apply precise chemicals</li>
+                            <li>Inspection and adjustment of water levels for proper functioning of pumps and skimmers
+                            </li>
+                            <li>Ensure customer satisfaction by providing high quality customer service</li>
+                            <li>Ensure all installed equipment is functioning properly</li>
+                            <li>Keep supervisor informed of job progress</li>
+                        </ul>
+                    </span>
 
-                    <span class="experience-type">Lawn Care Technician |</span> <span class="experience-company">Botts Lawn Service</span><br>
+                    <span class="experience-type">Lawn Care Technician |</span> <span class="experience-company">Botts
+                        Lawn Service</span><br>
                     <span class="exp-dates">
                         April 2014 - May 2018
                     </span>
-                    <span class="exp-points"><ul>
-                        <li>Performed lawn maintenace for homeowners</li>
-                        <li>Ensure customer satisfaction by providing high quality customer service</li>
-                    </ul></span>
+                    <span class="exp-points">
+                        <ul>
+                            <li>Performed lawn maintenace for homeowners</li>
+                            <li>Ensure customer satisfaction by providing high quality customer service</li>
+                        </ul>
+                    </span>
                 </td>
             </tr>
-            </tr>
-            <tr> 
+            <tr>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <img src="https://th.bing.com/th/id/OIP.d2AE0KLxKHgDJ1mbM332FAHaHa?pid=ImgDet&rs=1"height="40" width="40">
+                    <img src="activities_img.png" height="40"
+                        width="40">
                 </td>
                 <td colspan="2">
                     <h2>ACTIVITIES</h2>
-                    <hr size="colspan=3"color="white">
+                    <hr size="colspan=3" color="white">
                 </td>
+            </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td colspan="2">                    
-                    <span class="activities-statement">A few things I like to enjoy doing in my free time are as followed:</span>
+                <td colspan="2">
+                    <span class="activities-statement">A few things I like to enjoy doing in my free time are as
+                        followed:</span>
                     <span class="activities-list">
                         <ul>
                             <li>Video games</li>
@@ -281,8 +326,8 @@
                     </span>
                 </td>
             </tr>
-            </tr>
-            
         </table>
-    </body>
+    </div>
+</body>
+
 </html>
