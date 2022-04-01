@@ -4,6 +4,9 @@ table, th, td {
 td  {
    margin-right: 100px; 
 }
+.body-style body {
+    background-image: ('purple_backdrop.JPEG');
+}
 
 h1 {
     font-weight: bolder;
@@ -81,7 +84,7 @@ ul li:before { /* the custom styled bullets */
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .school-dates {
-    color: lightslategrey;
+    color: rgb(219, 224, 230);
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .experience-type {
@@ -105,14 +108,14 @@ ul li:before { /* the custom styled bullets */
     width: 6px;                
 }
 .exp-points ul li {
-    color: rgb(182, 182, 182);
+    color: rgb(216, 223, 231);
     font-weight: lighter;
     margin: 5;
     padding-left: 17;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .exp-dates {
-    color: lightslategrey;
+    color: rgb(219, 224, 230);
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 .activities-statement {
@@ -132,7 +135,7 @@ ul li:before { /* the custom styled bullets */
     margin: 5px;               
 }
 .activities-list ul li {
-    color:lightgrey;
+    color:rgb(230, 230, 230);
     font-weight: lighter;
     margin: 2.5;
     padding-left: 25;
@@ -148,8 +151,8 @@ ul li:before { /* the custom styled bullets */
     width: 6px;                
 }
 .tech-points ul li {
-    color:lightgrey;
-    font-weight: lighter;
+    color:rgb(255, 255, 237);
+    font-weight: bolder;
     margin: 2.5;
     padding-left: 25;
 }
