@@ -4,18 +4,33 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" style="font-size: larger;" href="Portfolio-StyleSheet.css"><br>
         <link rel="stylesheet" style="font-size: larger;" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            @media screen and (max-height: 450px) {
+              .sidenav {padding-top: 15px;}
+              .sidenav a {font-size: 18px;}
+            }
+        </style>
     </head>
-
     <body background="https://th.bing.com/th/id/OIP.uPA2woSWc23omjmQU6ZH2gHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.35&pid=1.7">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resume.html">Resume</a>
+        </div>
+        <span style="color: white; font-size:30px; font-weight:bolder; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
         <div id="main-container" class="container">
             <section class="main-section">
                 <div class="container">
                     <h1>Joshua Childress</h1>
-                    <table>
-                        <td><u><a href="index.html" style="padding-left: 55px; font-size: xx-large;">About Me</a></u></td>
-                        <td><u><a href="portfolio.html"style="padding-left: 100px;font-size: xx-large;">Portfolio</a></u></td>
-                        <td><u><a href="resume.html"style="padding-left: 100px;font-size: xx-large;">Resume</a></u></td>
-                    </table>
                 </div>
                 <img src="assets/image/profile_img.png" width="250" height="250"><br>
                 <h2>Contact</h2><br>

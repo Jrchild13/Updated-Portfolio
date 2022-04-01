@@ -6,17 +6,32 @@
         <title>Portfolio | Your Name</title>
         <link rel="stylesheet" type="text/css" href="Portfolio-StyleSheet.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            @media screen and (max-height: 450px) {
+              .sidenav {padding-top: 15px;}
+              .sidenav a {font-size: 18px;}
+            }
+        </style>
     </head>
-
-    <body  background="https://th.bing.com/th/id/OIP.uPA2woSWc23omjmQU6ZH2gHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.35&pid=1.7">        
+    <body  background="https://th.bing.com/th/id/OIP.uPA2woSWc23omjmQU6ZH2gHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.35&pid=1.7">         
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <span style="color: white; font-size:30px; font-weight:bolder; cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
         <header id="masthead">            
             <div class="container">            
-                <h1>Joshua Childress</h1>            
-                <table>                
-                    <td><u><a href="index.html" style="padding-left: 55px; font-size: xx-large;">About Me</a></u></td>                
-                    <td><u><a href="resume.html"style="padding-left: 100px;font-size: xx-large;">Resume</a></u></td>                
-                    <td><u><a href="contact.html"style="padding-left: 100px;font-size: xx-large;">Contact Info</a></u></td>            
-                </table>            
+                <h1>Joshua Childress</h1>                        
             </div>        
         </header>
         <div id="main-container" class="container">
