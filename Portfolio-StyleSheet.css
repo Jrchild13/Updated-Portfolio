@@ -39,11 +39,11 @@ p {
 #email-address p {
     padding-left: 125px;
 }
-#git-hub-page p {
+.other-pages p {
     padding-left: 255px;
     font-weight: bolder;
 }
-.other-pages p {
+#git-hub-page p {
     padding-left: 255px;
     font-weight: bolder;
 }
