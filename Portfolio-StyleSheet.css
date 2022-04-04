@@ -4,10 +4,6 @@ table, th, td {
 td  {
    margin-right: 100px; 
 }
-.body-style body {
-    background-image: ('purple_backdrop.JPEG');
-}
-
 h1 {
     font-weight: bolder;
     color: white;
@@ -169,37 +165,32 @@ ul li:before { /* the custom styled bullets */
     text-indent: 25px;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
+.side-nav {
+    width: 160px;
+    position:fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(31, 31, 31);
+    top: 20px;
+    left: 10px;
+    background-color: black;
     overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding-top: 8px 0;
+}
+.side-nav a {
+      padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #fffdfd;
+    color: white;
     display: block;
-    transition: 0.3s;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
+}
+.main-section {
+    margin-left: 130px;
+    padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}  
+}
+#masthead {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
